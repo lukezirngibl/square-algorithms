@@ -1,0 +1,21 @@
+{
+  "name": "square-algorithms",
+  "version": "1.0.12",
+  "description": "Algorithms for traversing squares",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "copy": "cp -R ./build/ ./example"
+  },
+  "author": "Luke Zirngibl",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "webpack": "4.16.1",
+    "webpack-cli": "3.1.0"
+  }
+}
